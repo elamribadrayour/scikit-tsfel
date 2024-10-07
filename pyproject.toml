@@ -1,0 +1,13 @@
+[tool.poetry]
+version = "0.1.0"
+readme = "readme.md"
+name = "scikit-tsfel"
+authors = ["elamribadrayour <badrayour.elamri@protonmail.com>"]
+description = "A Python package for TSFEL feature extraction with scikit-learn integration"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+ignore_missing_imports = true
